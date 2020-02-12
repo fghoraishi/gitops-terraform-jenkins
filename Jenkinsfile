@@ -19,7 +19,7 @@ try {
         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
       ]]) {
         ansiColor('xterm') {
-          /bin/bash 'terraform init'
+          sh 'terraform init'
         }
       }
     }
